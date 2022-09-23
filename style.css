@@ -1,0 +1,24 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid orange;
+    box-sizing: border-box;
+    height: 600px;
+    width: 600px;
+}
+
+.row {
+    display: flex;
+    width: 600px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.square {
+    display: flex;
+    box-sizing: border-box;
+    flex: auto; 
+    justify-content: center;
+    align-items: center;
+    border: 0.001px solid blue; 
+};
